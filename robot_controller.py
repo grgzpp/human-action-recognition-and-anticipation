@@ -15,7 +15,8 @@ class RobotController:
     def __init__(self):
         self.robot = None
         self.is_connected = False
-        self.is_robot_moving = False
+        self.is_moving = False
+        self.is_delivering = False
         self.is_at_home_pos = False
         
     def connect(self):
@@ -40,9 +41,9 @@ class RobotController:
         return 370 <= x <= 700 and -300 <= y <= 30 and 20 <= z <= 250
     
     def move_to_home_pose(self):
+        self.is_at_home_pos = True
         home_pose = [0, 0, 0, -math.pi / 2, 0, math.pi / 2, -math.pi/6]
         self.robot.movePTPJointSpace(home_pose, [0.1])
-        self.is_at_home_pos = True
     
     def move_cartesian(self, x, y, z, x_offset=0.0, y_offset=0.0, z_offset=0.0, speed=30):
         self.is_at_home_pos = False

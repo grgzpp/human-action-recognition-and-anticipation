@@ -4,14 +4,12 @@ This project aims to make human-robot collaboration more natural and intuitive b
 
 This project has been developed as part of my master's thesis work. The results of the experiments, including model performance metrics and visualizations, are documented in the thesis. I will add a link so you can consult it as soon as it is completed.
 
-The project is STILL IN PROGRESS. Updates will be uploaded soon.
-
 ## Introduction
 
 This project focuses on developing, training and evaluating two neural network models for recognizing and predicting human actions in real-time to facilitate effective human-robot collaboration. The primary goals are:
-- To accurately recognize various human actions.
+- To accurately recognize a set of human actions.
 - To predict subsequent human actions based on current observations.
-- To make the robot perform the predicted actions to anticipate the human, to improve collaboration.
+- To make the robot perform the predicted actions to anticipate the human, to improve collaboration in a natural and intuitive way.
 
 ## Project Structure
 
@@ -74,7 +72,7 @@ The project also depends on the [iiwaPy3](https://github.com/Modi1987/iiwaPy3) l
 
 ## Usage
 
-The main program used for the real-time implementation is *robot_program.ipynb* (it will soon be moved to a Python file). This connects the robot and the camera, uses both models developed for action recognition and prediction, and commands the robot to anticipate them.
+The main program used for the autonomous real-time implementation is *robot_program.ipynb*. This connects the robot and the camera, uses both models developed for action recognition and prediction, and commands the robot to anticipate them.
 
 ### Training and Evaluation
 
