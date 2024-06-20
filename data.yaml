@@ -1,6 +1,6 @@
-path: absolute\\path\\to\\dataset\\folder
-train: images\\train
-val: images\\val
+path: absolute/path/to/dataset/folder
+train: images/train
+val: images/val
 
 names:
   0: small_screw

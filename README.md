@@ -4,6 +4,10 @@ This project aims to make human-robot collaboration more natural and intuitive b
 
 This project has been developed as part of my master's thesis work. The results of the experiments, including model performance metrics and visualizations, are documented in the thesis. I will add a link so you can consult it as soon as it is completed.
 
+## Project Overview Video
+
+[![Project Overview Video](https://img.youtube.com/vi/grU0Z88kiMg/0.jpg)](https://www.youtube.com/watch?v=grU0Z88kiMg)
+
 ## Introduction
 
 This project focuses on developing, training and evaluating two neural network models for recognizing and predicting human actions in real-time to facilitate effective human-robot collaboration. The primary goals are:
