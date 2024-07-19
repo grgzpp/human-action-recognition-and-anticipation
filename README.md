@@ -2,8 +2,7 @@
 
 This project aims to make human-robot collaboration more natural and intuitive by accurately recognizing, predicting and anticipating human actions in a collaborative assembly scenario, using the neural network architectures developed.
 
-This project has been developed as part of my master's thesis work. The results of the experiments, including model performance metrics and visualizations, are documented in the thesis. I will add a link so you can consult it as soon as it is completed.
-
+This project has been developed as part of my master's thesis work. The results of the experiments, including model performance metrics and visualizations, are documented in the thesis.
 ## Project Overview Video
 
 [![Project Overview Video](https://img.youtube.com/vi/grU0Z88kiMg/0.jpg)](https://www.youtube.com/watch?v=grU0Z88kiMg)
